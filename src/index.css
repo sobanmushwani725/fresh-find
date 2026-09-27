@@ -1,0 +1,401 @@
+/* ==========================================
+   THEME VARIABLES & COLOR PALETTE
+   ========================================== */
+
+:root {
+  --theme-darker: #0b1320;        
+  --theme-dark: #152238;          
+  --theme-accent: #10b981;        
+  --theme-accent-hover: #059669;  
+  --theme-accent-light: #34d399;  
+  --theme-accent-subtle: rgba(16, 185, 129, 0.12); 
+  --theme-accent-glow: rgba(16, 185, 129, 0.35);   
+
+  --ff-background: var(--theme-darker);
+  --ff-surface: var(--theme-dark);
+  --ff-primary: var(--theme-accent);
+  --ff-primary-hover: var(--theme-accent-hover);
+  --ff-highlight: var(--theme-accent-light);
+  --ff-text: #ffffff;
+  --ff-text-muted: #94a3b8;
+  --ff-accent-tint: var(--theme-accent-subtle);
+  --ff-gradient: linear-gradient(135deg, #10b981 0%, #047857 100%);
+  --ff-border: rgba(16, 185, 129, 0.25);
+  --ff-border-hover: rgba(16, 185, 129, 0.7);
+  --ff-input-bg: var(--theme-dark);
+
+  --nav-link-color: var(--ff-text);
+  --nav-link-hover-bg: rgba(16, 185, 129, 0.2);
+  --nav-link-hover-color: var(--theme-accent-light);
+  --nav-link-active-bg: var(--theme-accent);
+  --nav-link-active-color: #ffffff;
+}
+
+[data-bs-theme="light"] {
+  --theme-darker: #f8fafc;        
+  --theme-dark: #ffffff;          
+  --theme-accent: #059669;        
+  --theme-accent-hover: #047857;  
+  --theme-accent-light: #059669;  
+  --theme-accent-subtle: rgba(16, 185, 129, 0.1);  
+  --theme-accent-glow: rgba(16, 185, 129, 0.25);   
+
+  --ff-background: var(--theme-darker);
+  --ff-surface: var(--theme-dark);
+  --ff-text: #0f172a;             
+  --ff-text-muted: #64748b;       
+  --ff-border: rgba(16, 185, 129, 0.3);
+  --ff-border-hover: rgba(16, 185, 129, 0.8);
+  --ff-input-bg: #ffffff;
+
+  --nav-link-color: #334155;
+  --nav-link-hover-bg: rgba(5, 150, 105, 0.12);
+  --nav-link-hover-color: var(--theme-accent);
+  --nav-link-active-bg: var(--theme-accent);
+  --nav-link-active-color: #ffffff;
+}
+
+/* ==========================================
+   GLOBAL BASE & RESET
+   ========================================== */
+html, body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--ff-background) !important;
+  color: var(--ff-text) !important;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  min-height: 100vh;
+}
+
+.bg-theme-dark { background-color: var(--ff-surface) !important; }
+.bg-theme-darker { background-color: var(--ff-background) !important; }
+.bg-accent-subtle { background-color: var(--theme-accent-subtle) !important; }
+.bg-accent { background-color: var(--theme-accent) !important; color: #ffffff !important; }
+.bg-cream { background-color: var(--ff-surface) !important; }
+.bg-light,
+.bg-white,
+.bg-body,
+.bg-body-tertiary {
+  background-color: var(--ff-background) !important;
+  color: var(--ff-text) !important;
+}
+
+.text-accent { color: var(--theme-accent) !important; }
+.text-dark { color: var(--ff-text) !important; }
+.text-muted { color: var(--ff-text-muted) !important; }
+
+.border-secondary,
+.border,
+.border-bottom,
+.border-top {
+  border-color: var(--ff-border) !important;
+}
+
+/* ==========================================
+   NAVBAR & RESPONSIVE FIXES
+   ========================================== */
+.navbar {
+  padding: 0.5rem 1rem;
+}
+
+.navbar .container,
+.navbar .container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  margin: 0 auto 0 1rem;
+}
+
+.navbar-nav .nav-link {
+  color: var(--nav-link-color) !important;
+  padding: 6px 10px !important;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.25s ease-in-out !important;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  background-color: var(--nav-link-hover-bg) !important;
+  color: var(--nav-link-hover-color) !important;
+}
+
+.navbar-nav .nav-link.active {
+  background-color: var(--nav-link-active-bg) !important;
+  color: var(--nav-link-active-color) !important;
+  font-weight: 600;
+  box-shadow: 0 4px 12px var(--theme-accent-glow);
+}
+
+.navbar-divider {
+  color: var(--ff-border) !important;
+  font-weight: 300;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 4px;
+  opacity: 0.6;
+}
+
+/* SEARCH & ACTION CONTROL SIZES */
+.navbar .input-group {
+  width: 170px;
+}
+
+/* MOBILE RESPONSIVE BREAKPOINT (SCREEN WIDTH < 992px) */
+@media (max-width: 991.98px) {
+  .navbar-divider {
+    display: none !important;
+  }
+
+  .navbar-collapse {
+    width: 100%;
+    margin-top: 0.75rem;
+  }
+
+  .navbar-nav {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    margin: 0.5rem 0 !important;
+    width: 100% !important;
+  }
+
+  .navbar-nav .nav-link {
+    justify-content: center !important;
+    padding: 10px 12px !important;
+  }
+
+  /* Center action elements inside collapsed mobile navbar */
+  .navbar-collapse .d-flex {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 0.75rem !important;
+    width: 100% !important;
+    margin-top: 0.5rem !important;
+  }
+
+  .navbar-collapse .input-group {
+    width: 100% !important;
+    max-width: 280px !important;
+  }
+
+  /* Exclude circular theme toggle button from full-width styling */
+  .navbar-collapse .btn:not(.rounded-circle) {
+    width: 100% !important;
+    max-width: 280px !important;
+    justify-content: center !important;
+  }
+
+  /* Strict circular sizing for Theme Toggle Button */
+  .navbar-collapse .btn.rounded-circle,
+  .navbar .btn.rounded-circle {
+    width: 42px !important;
+    height: 42px !important;
+    min-width: 42px !important;
+    max-width: 42px !important;
+    padding: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 50% !important;
+    margin: 0.25rem auto !important;
+    flex-shrink: 0 !important;
+  }
+
+  .navbar-collapse .btn.rounded-circle i,
+  .navbar .btn.rounded-circle i {
+    font-size: 1.1rem !important;
+    line-height: 1 !important;
+    margin: 0 !important;
+  }
+}
+
+/* ==========================================
+   BUTTONS & FORM CONTROLS
+   ========================================== */
+.btn {
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  white-space: nowrap !important;
+}
+
+.btn-accent, .btn-success {
+  background-color: var(--theme-accent) !important;
+  border-color: var(--theme-accent) !important;
+  color: #ffffff !important;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.2);
+}
+
+.btn-accent:hover, .btn-success:hover,
+.btn-accent:focus, .btn-success:focus {
+  background-color: var(--theme-accent-hover) !important;
+  border-color: var(--theme-accent-hover) !important;
+  color: #ffffff !important;
+  box-shadow: 0 6px 20px var(--theme-accent-glow) !important;
+  transform: translateY(-2px);
+}
+
+.btn-outline-accent, .btn-outline-success {
+  border-color: var(--theme-accent) !important;
+  color: var(--theme-accent) !important;
+  background-color: transparent !important;
+}
+
+.btn-outline-accent:hover, .btn-outline-success:hover,
+.btn-outline-accent:focus, .btn-outline-success:focus {
+  background-color: var(--theme-accent) !important;
+  border-color: var(--theme-accent) !important;
+  color: #ffffff !important;
+  box-shadow: 0 6px 20px var(--theme-accent-glow) !important;
+  transform: translateY(-2px);
+}
+
+.form-control,
+.form-select {
+  background-color: var(--ff-input-bg) !important;
+  color: var(--ff-text) !important;
+  border: 1px solid var(--ff-border) !important;
+  transition: all 0.25s ease !important;
+}
+
+.form-control:focus,
+.form-select:focus {
+  background-color: var(--ff-input-bg) !important;
+  color: var(--ff-text) !important;
+  border-color: var(--theme-accent) !important;
+  box-shadow: 0 0 0 0.25rem var(--theme-accent-subtle) !important;
+}
+
+.card {
+  background-color: var(--ff-surface) !important;
+  color: var(--ff-text) !important;
+  border: 1px solid var(--ff-border) !important;
+}
+
+/* ==========================================
+   CARD & BOOKMARK HOVER ANIMATIONS
+   ========================================== */
+.hover-card {
+  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), border-color 0.3s ease !important;
+}
+
+.hover-card:hover {
+  transform: translateY(-6px) !important;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35), 0 0 15px var(--theme-accent-glow) !important;
+  border-color: var(--theme-accent) !important;
+}
+
+.bookmark-hover-btn,
+.produce-bookmark-btn {
+  transition: all 0.2s ease-in-out !important;
+  cursor: pointer !important;
+}
+
+.bookmark-hover-btn:hover,
+.produce-bookmark-btn:hover {
+  transform: scale(1.15) !important;
+  background-color: #10b981 !important;
+  color: #ffffff !important;
+  border-color: #10b981 !important;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.4) !important;
+}
+
+.bookmark-hover-btn:hover i,
+.produce-bookmark-btn:hover i {
+  color: #ffffff !important;
+}
+
+/* ==========================================
+   CHATBOT FLOATING BUTTON HOVER EFFECT
+   ========================================== */
+.chatbot-btn,
+.chat-widget-btn,
+.floating-chat-btn,
+button[aria-label*="chat" i],
+button[aria-label*="Chat" i] {
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+  box-shadow: 0 4px 14px rgba(16, 185, 129, 0.35) !important;
+  cursor: pointer !important;
+}
+
+.chatbot-btn:hover,
+.chat-widget-btn:hover,
+.floating-chat-btn:hover,
+button[aria-label*="chat" i]:hover,
+button[aria-label*="Chat" i]:hover {
+  transform: scale(1.15) translateY(-3px) !important;
+  background-color: var(--theme-accent-hover, #059669) !important;
+  box-shadow: 0 8px 22px var(--theme-accent-glow, rgba(16, 185, 129, 0.55)) !important;
+}
+
+.chatbot-btn:hover i,
+.chat-widget-btn:hover i,
+.floating-chat-btn:hover i,
+button[aria-label*="chat" i]:hover i,
+button[aria-label*="Chat" i]:hover i,
+.chatbot-btn:hover svg,
+.chat-widget-btn:hover svg,
+.floating-chat-btn:hover svg {
+  transform: rotate(12deg) scale(1.1) !important;
+  transition: transform 0.25s ease !important;
+}
+
+/* ==========================================
+   CHAT INPUT SEND BUTTON HOVER EFFECT
+   ========================================== */
+.chat-send-btn,
+.input-group .btn-accent,
+button[type="submit"]:has(.bi-send),
+button[type="submit"]:has(.bi-send-fill),
+button[type="submit"]:has(.fa-paper-plane),
+button:has(svg path[d*="M2.01 21L23 12"]) {
+  transition: all 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+  cursor: pointer !important;
+}
+
+.chat-send-btn:hover,
+.input-group .btn-accent:hover,
+button[type="submit"]:has(.bi-send):hover,
+button[type="submit"]:has(.bi-send-fill):hover,
+button[type="submit"]:has(.fa-paper-plane):hover,
+button:has(svg path[d*="M2.01 21L23 12"]):hover {
+  background-color: var(--theme-accent-hover, #059669) !important;
+  border-color: var(--theme-accent-hover, #059669) !important;
+  transform: translateY(-2px) scale(1.08) !important;
+  box-shadow: 0 6px 16px var(--theme-accent-glow, rgba(16, 185, 129, 0.5)) !important;
+}
+
+/* Paper plane launch tilt animation on hover */
+.chat-send-btn:hover i,
+.chat-send-btn:hover svg,
+.input-group .btn-accent:hover i,
+.input-group .btn-accent:hover svg,
+button[type="submit"]:has(.bi-send):hover i,
+button[type="submit"]:has(.bi-send-fill):hover i,
+button[type="submit"]:has(.fa-paper-plane):hover i,
+button:has(svg path[d*="M2.01 21L23 12"]):hover svg {
+  transform: translate(2px, -2px) rotate(15deg) scale(1.1) !important;
+  transition: transform 0.25s ease !important;
+}
+
+.chat-send-btn:active,
+.input-group .btn-accent:active,
+button:has(svg path[d*="M2.01 21L23 12"]):active {
+  transform: translateY(0) scale(0.95) !important;
+}

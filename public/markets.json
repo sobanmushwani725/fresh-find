@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "name": "Green Valley Farmers Market",
+    "area": "DHA",
+    "address": "Khayaban-e-Ittehad, Phase 6",
+    "days": ["Saturday", "Sunday"],
+    "hours": {
+      "open": "08:00",
+      "close": "16:00"
+    },
+    "description": "A vibrant weekend market offering organic seasonal vegetables, fresh orchard apples, artisan cheeses, and pure local honey.",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "latitude": 24.802,
+    "longitude": 67.062,
+    "produce": ["Tomatoes", "Apples", "Carrots", "Honey", "Eggs", "Organic"]
+  },
+  {
+    "id": 2,
+    "name": "Clifton Organic Harvest Bazaar",
+    "area": "Clifton",
+    "address": "Block 4, Near Seaview Park",
+    "days": ["Friday", "Saturday"],
+    "hours": {
+      "open": "09:00",
+      "close": "18:00"
+    },
+    "description": "Neighborhood farm stand bringing certified pesticide-free greens, spinach, fresh berries, and farm-fresh dairy direct from regional growers.",
+    "image": "https://images.unsplash.com/photo-1573246123716-6b1782bfc499?auto=format&fit=crop&w=800&q=80",
+    "latitude": 24.813,
+    "longitude": 67.031,
+    "produce": ["Spinach", "Strawberries", "Vegetables", "Dairy", "Herbs"]
+  },
+  {
+    "id": 3,
+    "name": "Gulshan Fresh Produce Hub",
+    "area": "Gulshan",
+    "address": "Block 5, Main University Road",
+    "days": ["Monday", "Wednesday", "Friday"],
+    "hours": {
+      "open": "07:30",
+      "close": "14:00"
+    },
+    "description": "Bustling morning market famous for crisp root vegetables, fresh mint, cilantro herbs, and low-cost seasonal staples.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=800&q=80",
+    "latitude": 24.918,
+    "longitude": 67.097,
+    "produce": ["Carrots", "Potatoes", "Herbs", "Vegetables"]
+  },
+  {
+    "id": 4,
+    "name": "North Nazimabad Community Market",
+    "area": "North Nazimabad",
+    "address": "Block H, Near Hydri Market",
+    "days": ["Tuesday", "Thursday", "Saturday"],
+    "hours": {
+      "open": "08:00",
+      "close": "15:00"
+    },
+    "description": "Family-friendly open-air market connecting suburban buyers with local agricultural cooperatives and fruit orchards.",
+    "image": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?auto=format&fit=crop&w=800&q=80",
+    "latitude": 24.935,
+    "longitude": 67.038,
+    "produce": ["Fruits", "Vegetables", "Eggs", "Dairy","lemon"]
+  },
+  {
+    "id": 5,
+    "name": "Sadar Fruit Market",
+    "area": "Saddar",
+    "address": "Shop A0, KDA building, opposite Lahore Shoes, Bohra Bazaar Karachi",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "hours": {
+      "open": "08:00",
+      "close": "15:00"
+    },
+    "description": "Historic downtown market offering wholesale prices on fresh seasonal fruits, citrus, herbs, and daily kitchen essentials.",
+    "image": "https://images.unsplash.com/photo-1610832958506-aa56368176cf?auto=format&fit=crop&w=800&q=80",
+    "latitude": 24.8625,
+    "longitude": 67.03167,
+    "produce": ["Fruits", "Vegetables", "Eggs", "Dairy", "Herbs"]
+  },
+  {
+    "id": 6,
+    "name": "Empress Historic Fresh Bazaar",
+    "area": "Saddar",
+    "address": "Preedy Street, Empress Market, Saddar Town",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+    "hours": {
+      "open": "07:00",
+      "close": "19:00"
+    },
+    "description": "Karachi's landmark heritage market famous for exotic spices, organic herbs, fresh poultry, and imported produce.",
+    "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80",
+    "latitude": 24.8631,
+    "longitude": 67.0267,
+    "produce": ["Tomatoes", "Carrots", "Herbs", "Spinach", "Dairy", "Organic","Mint & Cilantro"]
+  },
+  {
+    "id": 7,
+    "name": "Bahadurabad Produce Corner",
+    "area": "Bahadurabad",
+    "address": "Alamgir Road, Near Char Minar Chowrangi",
+    "days": ["Monday", "Wednesday", "Saturday", "Sunday"],
+    "hours": {
+      "open": "08:30",
+      "close": "17:00"
+    },
+    "description": "Vibrant neighborhood market known for farm-fresh citrus, pomegranates, crisp green vegetables, and local honey.",
+    "image": "https://images.unsplash.com/photo-1506484381205-f7945653044d?auto=format&fit=crop&w=800&q=80",
+    "latitude": 24.8824,
+    "longitude": 67.0671,
+    "produce": ["Apples", "Strawberries", "Fruits", "Honey", "Potatoes","Lemon"]
+  },
+  {
+    "id": 8,
+    "name": "Tariq Road Vegetable Market",
+    "area": "PECHS",
+    "address": "Block 2 PECHS, Near Tariq Road Commercial Area",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+    "hours": {
+      "open": "08:00",
+      "close": "18:00"
+    },
+    "description": "Central shopping hub market offering freshly harvested leafy greens, root vegetables, and daily dairy items.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_phAMIsoJJe_dmPI5D6ncsren-bmOxlYyJU6GYFsbvw&s=10",
+    "latitude": 24.8719,
+    "longitude": 67.0598,
+    "produce": ["Vegetables", "Spinach", "Tomatoes", "Herbs", "Eggs"]
+  },
+  {
+    "id": 9,
+    "name": "Malir Mandi Fresh Hub",
+    "area": "Malir",
+    "address": "Main National Highway, Near Malir Halt",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "hours": {
+      "open": "05:00",
+      "close": "13:00"
+    },
+    "description": "Karachi's major agricultural supply hub receiving early morning farm deliveries straight from Sindh orchards and farms.",
+    "image": "https://images.unsplash.com/photo-1595855759920-86582396756a?auto=format&fit=crop&w=800&q=80",
+    "latitude": 24.8953,
+    "longitude": 67.1983,
+    "produce": ["Carrots", "Potatoes", "Tomatoes", "Fruits", "Vegetables", "Organic"]
+  },
+  {
+    "id": 10,
+    "name": "PECHS Community Organic Market",
+    "area": "PECHS",
+    "address": "Block 6, Khalid Bin Waleed Road",
+    "days": ["Friday", "Sunday"],
+    "hours": {
+      "open": "09:00",
+      "close": "17:00"
+    },
+    "description": "Boutique organic weekend market featuring pesticide-free strawberries, artisan dairy, farm eggs, and fresh juices.",
+    "image": "https://thumbs.dreamstime.com/b/vegetable-market-night-saddar-bazaar-karachi-pakistan-93164956.jpg",
+    "latitude": 24.8692,
+    "longitude": 67.0734,
+    "produce": ["Strawberries", "Honey", "Organic", "Dairy", "Eggs", "Herbs"]
+  },
+  {
+    "id": 11,
+    "name": "Sabzi Mandi Wholesale Market",
+    "area": "Super Highway",
+    "address": "M-9 Super Highway, Near Sohrab Goth",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "hours": {
+      "open": "04:00",
+      "close": "12:00"
+    },
+    "description": "Karachi's largest wholesale produce market receiving fresh daily farm truckloads from across Sindh and Punjab.",
+    "image": "https://images.unsplash.com/photo-1578916171728-46686eac8d58?auto=format&fit=crop&w=800&q=80",
+    "latitude": 24.9685,
+    "longitude": 67.1128,
+    "produce": ["Tomatoes", "Potatoes", "Carrots", "Spinach", "Vegetables", "Fruits"]
+  },
+  {
+    "id": 12,
+    "name": "Boat Basin Morning Organic Stand",
+    "area": "Clifton",
+    "address": "Khayaban-e-Saadi, Block 5, Clifton",
+    "days": ["Saturday", "Sunday"],
+    "hours": {
+      "open": "07:00",
+      "close": "13:00"
+    },
+    "description": "Popular weekend morning pop-up offering freshly picked organic salad greens, microgreens, berries, and raw honey.",
+    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80",
+    "latitude": 24.8189,
+    "longitude": 67.0305,
+    "produce": ["Organic", "Spinach", "Strawberries", "Herbs", "Honey"]
+  }
+]

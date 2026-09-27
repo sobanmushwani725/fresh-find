@@ -1,0 +1,50 @@
+[
+  {
+    "question": "Where can I find a farmers market?",
+    "keywords": ["market", "find", "where"],
+    "answer": "You can explore all our nearby markets in the Market Directory page!",
+    "link": "/markets"
+  },
+  {
+    "question": "Which markets are open today?",
+    "keywords": ["today", "open today"],
+    "answer": "You can filter by 'Today' or see the 'OPEN NOW' badge on our home or market directory pages.",
+    "link": "/markets"
+  },
+  {
+    "question": "Which markets are open right now?",
+    "keywords": ["right now", "now", "currently"],
+    "answer": "Our system checks real-time hours! Look at the 'Markets Open Now' section on the homepage.",
+    "link": "/"
+  },
+  {
+    "question": "What fruits are in season?",
+    "keywords": ["fruit", "fruits", "season"],
+    "answer": "Check our Produce Guide for fresh seasonal apples, strawberries, and orchard picks.",
+    "link": "/produce"
+  },
+  {
+    "question": "What vegetables are available?",
+    "keywords": ["vegetables", "veggies"],
+    "answer": "We have fresh tomatoes, carrots, spinach, and potatoes listed in our Produce Guide.",
+    "link": "/produce"
+  },
+  {
+    "question": "Where can I find tomatoes?",
+    "keywords": ["tomatoes", "tomato"],
+    "answer": "Tomatoes are available at Green Valley Market and Gulshan Fresh Produce Hub.",
+    "link": "/produce-details/1"
+  },
+  {
+    "question": "Which markets sell organic products?",
+    "keywords": ["organic", "pesticide free"],
+    "answer": "Clifton Organic Harvest Bazaar and Green Valley Farmers Market specialize in organic items.",
+    "link": "/markets?produce=Organic"
+  },
+  {
+    "question": "What time does the market open?",
+    "keywords": ["time", "timing", "hours"],
+    "answer": "Most markets open between 07:30 AM and 09:00 AM. Click any market card to view full schedules.",
+    "link": "/markets"
+  }
+]

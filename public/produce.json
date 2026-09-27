@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "Tomatoes",
+    "category": "Vegetables",
+    "season": "Year-round",
+    "description": "Juicy, vine-ripened farm-fresh tomatoes rich in lycopene and antioxidants.",
+    "image": "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?auto=format&fit=crop&w=600&q=80",
+    "benefits": "Heart Health, Vitamin C, Skin Brightening"
+  },
+  {
+    "id": 2,
+    "name": "Apples",
+    "category": "Fruits",
+    "season": "Autumn / Winter",
+    "description": "Crisp and sweet orchard-fresh apples delivered directly from mountain growers.",
+    "image": "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?auto=format&fit=crop&w=600&q=80",
+    "benefits": "High Fiber, Antioxidants, Immune Support"
+  },
+  {
+    "id": 3,
+    "name": "Carrots",
+    "category": "Vegetables",
+    "season": "Winter / Spring",
+    "description": "Crunchy root carrots packed with Beta-Carotene, Vitamin A, and natural sweetness.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx-u9O6NMhtWe8uaSzXxro4BgH9uV2EVx4xbE23YZluw&s=10",
+    "benefits": "Eye Health, Digestion, Low Calorie"
+  },
+  {
+    "id": 4,
+    "name": "Honey",
+    "category": "Honey",
+    "season": "Year-round",
+    "description": "100% pure raw unpasteurized honey harvested directly from local wildflower hives.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHecmVI1qfekS2eWF9xuQHkMxe6_bwadralPOrS8ACPA&s=10",
+    "benefits": "Natural Energy, Antimicrobial, Allergy Relief"
+  },
+  {
+    "id": 5,
+    "name": "Eggs",
+    "category": "Dairy",
+    "season": "Year-round",
+    "description": "Organic, pasture-raised free-range eggs with deep golden yolks.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP_nYGN2a83PgjJ-JOf7KA4cT4od096VpmHxG_e9pBOw&s=10",
+    "benefits": "High Protein, Choline, Essential Amino Acids"
+  },
+  {
+    "id": 6,
+    "name": "Spinach",
+    "category": "Vegetables",
+    "season": "Winter",
+    "description": "Nutrient-dense pesticide-free leafy greens packed with iron, folate, and vitamins.",
+    "image": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?auto=format&fit=crop&w=600&q=80",
+    "benefits": "Iron Boost, Bone Density, Hydration"
+  },
+  {
+    "id": 7,
+    "name": "Strawberries",
+    "category": "Fruits",
+    "season": "Winter / Early Spring",
+    "description": "Hand-picked succulent strawberries known for intense fragrance and rich sweetness.",
+    "image": "https://images.unsplash.com/photo-1464965911861-746a04b4bca6?auto=format&fit=crop&w=600&q=80",
+    "benefits": "Vitamin C, Anti-Inflinflammatory, Heart Health"
+  },
+  {
+    "id": 8,
+    "name": "Dairy",
+    "category": "Dairy",
+    "season": "Year-round",
+    "description": "Fresh whole milk, artisan butter, and natural yogurt from grass-fed regional cows.",
+    "image": "https://images.unsplash.com/photo-1528498033373-3c6c08e93d79?auto=format&fit=crop&w=600&q=80",
+    "benefits": "Calcium, Protein, Probiotics"
+  },
+  {
+    "id": 9,
+    "name": "Herbs",
+    "category": "Herbs",
+    "season": "Year-round",
+    "description": "Freshly cut aromatic cilantro, mint, basil, and rosemary bundle.",
+    "image": "https://emi.parkview.com/media/Image/Dashboard_835_Herbs_9_23.jpeg",
+    "benefits": "Digestive Aid, Flavor Enhancement, Antioxidants"
+  },
+  {
+    "id": 10,
+    "name": "Potatoes",
+    "category": "Vegetables",
+    "season": "Year-round",
+    "description": "Farm-fresh earthy potatoes ideal for roasting, boiling, or baking.",
+    "image": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=600&q=80",
+    "benefits": "Potassium, Carbohydrate Energy, Vitamin B6"
+  },
+  {
+    "id": 11,
+    "name": "Organic",
+    "category": "Organic",
+    "season": "Year-round",
+    "description": "Certified pesticide-free organic microgreens, salad mixes, and heirloom produce.",
+    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80",
+    "benefits": "Chemical-Free, High Micronutrients, Gut Health"
+  },
+  {
+    "id": 12,
+    "name": "Fruits",
+    "category": "Fruits",
+    "season": "Seasonal",
+    "description": "Assorted fresh seasonal orchard harvest including pomegranates, citrus, and guavas.",
+    "image": "https://images.unsplash.com/photo-1610832958506-aa56368176cf?auto=format&fit=crop&w=600&q=80",
+    "benefits": "Immune Boost, Natural Sugars, High Fiber"
+  },
+  {
+    "id": 13,
+    "name": "Vegetables",
+    "category": "Vegetables",
+    "season": "Year-round",
+    "description": "Essential daily kitchen greens including cucumbers, eggplants, bell peppers, and gourds.",
+    "image": "https://images.unsplash.com/photo-1566385101042-1a0aa0c1268c?auto=format&fit=crop&w=600&q=80",
+    "benefits": "Low Calorie, Essential Minerals, Hydration"
+  },
+  {
+    "id": 14,
+    "name": "Lemons",
+    "category": "Fruits",
+    "season": "Year-round",
+    "description": "Zesty, sun-ripened local lemons full of fresh juice and natural citrus aroma.",
+    "image": "https://images.cookforyourlife.org/wp-content/uploads/2018/08/shutterstock_278111387-min-e1444253668574-1024x989.jpg",
+    "benefits": "Vitamin C, Detoxification, Alkalizing Boost"
+  },
+  {
+    "id": 15,
+    "name": "Mint & Cilantro",
+    "category": "Herbs",
+    "season": "Year-round",
+    "description": "Fragrant bunches of freshly harvested field mint and green coriander leaves.",
+    "image": "https://images.unsplash.com/photo-1628556270448-4d4e4148e1b1?auto=format&fit=crop&w=600&q=80",
+    "benefits": "Cooling Effect, Digestion, Rich in Antidote Herbal Compounds"
+  }
+]
